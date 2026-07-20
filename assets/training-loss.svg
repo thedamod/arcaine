@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+<title id="title">Arcaine training loss</title><desc id="desc">Training loss across 1,000 optimizer steps, ending at 0.007.</desc>
+<style>
+:root { color-scheme: light dark; }
+.bg { fill: #ffffff; } .grid { stroke: #d0d7de; stroke-width: 1; } .axis { stroke: #8c959f; stroke-width: 1; }
+.line { fill: none; stroke: #0969da; stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+.dot { fill: #0969da; } .title { fill: #1f2328; font: 600 20px system-ui, sans-serif; } .subtitle,.label { fill: #57606a; font: 13px system-ui, sans-serif; }
+@media (prefers-color-scheme: dark) { .bg { fill: #0d1117; } .grid { stroke: #30363d; } .axis { stroke: #8b949e; } .line,.dot { stroke: #58a6ff; fill: #58a6ff; } .title { fill: #f0f6fc; } .subtitle,.label { fill: #8b949e; } }
+</style>
+<rect class="bg" width="960" height="420" rx="8"/>
+<text x="66" y="28" class="title">Arcaine LoRA training loss</text>
+<text x="66" y="412" class="subtitle">Optimizer step</text>
+<text x="926" y="28" class="subtitle" text-anchor="end">final loss 0.007 · 1,000 steps</text>
+<line x1="66" y1="362.0" x2="926" y2="362.0" class="grid"/><text x="54" y="366.0" class="label" text-anchor="end">-0.08</text><line x1="66" y1="282.5" x2="926" y2="282.5" class="grid"/><text x="54" y="286.5" class="label" text-anchor="end">0.22</text><line x1="66" y1="203.0" x2="926" y2="203.0" class="grid"/><text x="54" y="207.0" class="label" text-anchor="end">0.53</text><line x1="66" y1="123.5" x2="926" y2="123.5" class="grid"/><text x="54" y="127.5" class="label" text-anchor="end">0.83</text><line x1="66" y1="44.0" x2="926" y2="44.0" class="grid"/><text x="54" y="48.0" class="label" text-anchor="end">1.13</text><line x1="57.3" y1="44" x2="57.3" y2="362" class="grid"/><text x="57.3" y="396" class="label" text-anchor="middle">0</text><line x1="274.5" y1="44" x2="274.5" y2="362" class="grid"/><text x="274.5" y="396" class="label" text-anchor="middle">250</text><line x1="491.7" y1="44" x2="491.7" y2="362" class="grid"/><text x="491.7" y="396" class="label" text-anchor="middle">500</text><line x1="708.8" y1="44" x2="708.8" y2="362" class="grid"/><text x="708.8" y="396" class="label" text-anchor="middle">750</text><line x1="926.0" y1="44" x2="926.0" y2="362" class="grid"/><text x="926.0" y="396" class="label" text-anchor="middle">1000</text>
+<line x1="66" y1="362" x2="926" y2="362" class="axis"/>
+<polyline points="66.0,65.9 74.7,69.9 83.4,105.5 92.1,165.7 100.7,260.5 109.4,299.9 118.1,312.9 126.8,316.9 135.5,315.6 144.2,325.0 152.9,328.3 161.6,332.7 170.2,330.6 178.9,327.0 187.6,333.2 196.3,332.5 205.0,333.1 213.7,335.9 222.4,335.9 231.1,334.5 239.7,334.6 248.4,337.9 257.1,337.6 265.8,337.3 274.5,335.5 283.2,337.9 291.9,338.4 300.5,338.6 309.2,337.6 317.9,338.3 326.6,338.6 335.3,339.1 344.0,339.0 352.7,338.9 361.4,338.3 370.0,339.1 378.7,339.0 387.4,338.8 396.1,339.1 404.8,338.5 413.5,339.5 422.2,339.0 430.8,339.5 439.5,338.8 448.2,338.8 456.9,339.0 465.6,339.4 474.3,339.1 483.0,339.4 491.7,339.4 500.3,338.9 509.0,339.4 517.7,338.9 526.4,339.5 535.1,339.6 543.8,339.0 552.5,338.8 561.2,339.3 569.8,339.5 578.5,339.5 587.2,338.6 595.9,338.9 604.6,339.4 613.3,339.6 622.0,339.5 630.6,340.1 639.3,339.3 648.0,339.8 656.7,339.8 665.4,339.7 674.1,338.4 682.8,339.7 691.5,339.4 700.1,339.5 708.8,339.5 717.5,339.2 726.2,339.5 734.9,339.5 743.6,339.1 752.3,339.8 760.9,339.4 769.6,339.6 778.3,339.9 787.0,339.2 795.7,339.7 804.4,339.5 813.1,339.5 821.8,339.6 830.4,339.5 839.1,339.5 847.8,339.5 856.5,340.0 865.2,339.3 873.9,339.4 882.6,339.7 891.3,339.2 899.9,339.3 908.6,339.1 917.3,339.9 926.0,339.3" class="line"/>
+<circle cx="926.0" cy="339.3" r="4" class="dot"/>
+</svg>

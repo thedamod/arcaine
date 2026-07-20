@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated datasets, checkpoints, logs, and evaluation artifacts
+data/
+output/
+artifacts/
+logs/
+*.jsonl
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Local research by-products
+.ipynb_checkpoints/
+*.ipynb
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# OS and editor state
+.DS_Store
+.vscode/
+.idea/

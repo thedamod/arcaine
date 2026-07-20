@@ -1,0 +1,3 @@
+# Local orchestration dependency. Training-only packages are installed in the
+# reproducible Modal image declared in modal_app/train.py.
+modal>=1.0.0
