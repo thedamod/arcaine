@@ -5,7 +5,7 @@
 .bg { fill: #ffffff; } .grid { stroke: #d0d7de; stroke-width: 1; } .axis { stroke: #8c959f; stroke-width: 1; }
 .line { fill: none; stroke: #0969da; stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
 .dot { fill: #0969da; } .title { fill: #1f2328; font: 600 20px system-ui, sans-serif; } .subtitle,.label { fill: #57606a; font: 13px system-ui, sans-serif; }
-@media (prefers-color-scheme: dark) { .bg { fill: #0d1117; } .grid { stroke: #30363d; } .axis { stroke: #8b949e; } .line,.dot { stroke: #58a6ff; fill: #58a6ff; } .title { fill: #f0f6fc; } .subtitle,.label { fill: #8b949e; } }
+@media (prefers-color-scheme: dark) { .bg { fill: #0d1117; } .grid { stroke: #30363d; } .axis { stroke: #8b949e; } .line { stroke: #58a6ff; fill: none; } .dot { fill: #58a6ff; stroke: none; } .title { fill: #f0f6fc; } .subtitle,.label { fill: #8b949e; } }
 </style>
 <rect class="bg" width="960" height="420" rx="8"/>
 <text x="66" y="28" class="title">Arcaine LoRA training loss</text>
